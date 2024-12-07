@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/chirag/.nvm/versions/node/v18.17.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add --dev hardhat
+
+PATH: 
+  /Users/chirag/.pyenv/shims:/Users/chirag/.fuelup/bin:/Users/chirag/.fuelup/bin:/Users/chirag/.nvm/versions/node/v18.17.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:Documents/flutter & dart:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/chirag/.zsh/misc:/Users/chirag/.fuelup/bin:/Users/chirag/.nvm/versions/node/v18.17.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/chirag/.cargo/bin:/Users/chirag/.foundry/bin: /Users/chirag/Desktop/flutter/bin:/Users/chirag/Desktop/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3:/Users/chirag/.npm/bin:/opt/homebrew/bin/markdownlint:/Users/chirag/go/bin:/Users/chirag/.local/bin:/Users/chirag/Desktop/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin/pip3:/Users/chirag/.npm/bin:/opt/homebrew/bin/markdownlint:/Users/chirag/go/bin:/Users/chirag/.local/bin:/Users/chirag/.local/bin:/opt/homebrew/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/chirag/Library/Caches/Yarn/v6/npm-globals-13.24.0-8432a19d78ce0c1e833949c36adb345400bb1171-integrity/node_modules/globals/index.d.ts' -> '/Users/chirag/Documents/Ethereum/OpenS/AadhaarSecureScan/node_modules/@eslint/eslintrc/node_modules/globals/index.d.ts'
+
+npm manifest: 
+  {
+  	"name": "next-pwa-template",
+  	"version": "0.0.0",
+  	"license": "MIT",
+  	"scripts": {
+  		"dev": "next dev",
+  		"build": "next build",
+  		"start": "next start",
+  		"lint": "next lint"
+  	},
+  	"dependencies": {
+  		"@anon-aadhaar/react": "^2.4.2",
+  		"next": "14.1.1",
+  		"next-pwa": "^5.6.0",
+  		"next-themes": "^0.2.1",
+  		"react": "18.2.0",
+  		"react-dom": "18.2.0"
+  	},
+  	"devDependencies": {
+  		"@types/node": "^20.8.4",
+  		"@types/react": "^18.2.28",
+  		"autoprefixer": "^10.4.16",
+  		"eslint": "^8.51.0",
+  		"eslint-config-next": "^13.5.4",
+  		"eslint-config-prettier": "^9.0.0",
+  		"hardhat": "^2.22.17",
+  		"postcss": "^8.4.31",
+  		"prettier": "^3.0.3",
+  		"prettier-plugin-tailwindcss": "^0.5.5",
+  		"tailwindcss": "^3.3.3",
+  		"tailwindcss-safe-area": "^0.4.1",
+  		"typescript": "^5.2.2"
+  	},
+  	"prettier": {
+  		"semi": false,
+  		"singleQuote": true,
+  		"jsxSingleQuote": true,
+  		"useTabs": true
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
